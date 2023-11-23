@@ -1,3 +1,5 @@
+type *.txt - list all files from a directory together with file content
+-------------------------------------------------------------------------------------------------------------------------------------------
 dir - dir /b Lists all files and directories in the current directory in bare format.
 -------------------------------------------------------------------------------------------------------------------------------------------
 cd - cd Documents Changes the current directory to the Documents directory.
