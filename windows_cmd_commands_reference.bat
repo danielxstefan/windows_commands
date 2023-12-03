@@ -1,5 +1,19 @@
 type *.txt - list all files from a directory together with file content
 -------------------------------------------------------------------------------------------------------------------------------------------
+net view - Displays a list of domains, servers, and resources shared by these servers on a network.
+-------------------------------------------------------------------------------------------------------------------------------------------
+net use - Connects, disconnects, and displays information about shared network resources.
+-------------------------------------------------------------------------------------------------------------------------------------------
+schtasks - Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote system.
+-------------------------------------------------------------------------------------------------------------------------------------------
+cipher - Displays or alters the encryption of directories and files on NTFS volumes.
+-------------------------------------------------------------------------------------------------------------------------------------------
+wbadmin - Used for backup and restore of operating systems, drives, or files.
+-------------------------------------------------------------------------------------------------------------------------------------------
+icacls - Used to display or modify discretionary access control lists (DACLs) on specified files, and to apply saved DACLs stored in a file to files in a directory.
+-------------------------------------------------------------------------------------------------------------------------------------------
+powershell - Not a command but a command-line shell and scripting language. Powershell commands (cmdlets) are more advanced and powerful than traditional CMD commands.
+-------------------------------------------------------------------------------------------------------------------------------------------
 dir - dir /b Lists all files and directories in the current directory in bare format.
 -------------------------------------------------------------------------------------------------------------------------------------------
 cd - cd Documents Changes the current directory to the Documents directory.
@@ -28,8 +42,6 @@ find - find "example" file.txt Searches for the string "example" in file.txt.
 -------------------------------------------------------------------------------------------------------------------------------------------
 findstr - findstr "error" log.txt Searches for the string "error" in log.txt.
 -------------------------------------------------------------------------------------------------------------------------------------------
-xcopy - xcopy c:\data\*.* d:\backup\ /E /H /C Copies all files and directories from C:\data to D:\backup, including empty directories and hidden files.
--------------------------------------------------------------------------------------------------------------------------------------------
 robocopy - robocopy c:\data d:\backup /MIR Mirrors the source directory in the target directory.
 -------------------------------------------------------------------------------------------------------------------------------------------
 tree - tree /F Displays the folder structure of the current directory and shows the files in each folder.
@@ -40,11 +52,11 @@ attrib - attrib +r file.txt Sets the read-only attribute to file.txt.
 -------------------------------------------------------------------------------------------------------------------------------------------
 chkdsk - chkdsk c: Checks the disk on drive C: for errors.
 -------------------------------------------------------------------------------------------------------------------------------------------
-diskpart - Opens the diskpart tool to manage disk partitions.
--------------------------------------------------------------------------------------------------------------------------------------------
 sfc - sfc /scannow Scans the integrity of all protected system files and repairs files with problems when possible.
 -------------------------------------------------------------------------------------------------------------------------------------------
 net - net user Lists all user accounts on the computer.
+-------------------------------------------------------------------------------------------------------------------------------------------
+net localgroup - Manages local user groups, allowing you to add, display, or modify group memberships.
 -------------------------------------------------------------------------------------------------------------------------------------------
 ipconfig - ipconfig /all Displays all current TCP/IP network configuration values.
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -84,7 +96,7 @@ popd - popd Restores the previous value of the current directory saved by pushd.
 -------------------------------------------------------------------------------------------------------------------------------------------
 subst - subst X: C:\path\to\folder Associates the path C:\path\to\folder with the drive letter X:.
 -------------------------------------------------------------------------------------------------------------------------------------------
-xcopy - xcopy C:\data\*.* D:\backup /E Copies all files and directories from C:\data to D:\backup, including empty directories.
+xcopy - xcopy c:\data\*.* d:\backup\ /E /H /C Copies all files and directories from C:\data to D:\backup, including empty directories and hidden files.
 -------------------------------------------------------------------------------------------------------------------------------------------
 sc - sc query Lists all services and their status.
 -------------------------------------------------------------------------------------------------------------------------------------------
