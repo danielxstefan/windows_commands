@@ -1,5 +1,10 @@
 type *.txt - list all files from a directory together with file content
 -------------------------------------------------------------------------------------------------------------------------------------------
+type nul > filename.txt - This command creates an empty file with the specified name if it doesn't already exist. If the file does exist, 
+it will be overwritten with an empty file
+-------------------------------------------------------------------------------------------------------------------------------------------
+copy nul filename.txt - This command has a similar effect, creating an empty file named filename.txt.
+-------------------------------------------------------------------------------------------------------------------------------------------
 net view - Displays a list of domains, servers, and resources shared by these servers on a network.
 -------------------------------------------------------------------------------------------------------------------------------------------
 net use - Connects, disconnects, and displays information about shared network resources.
