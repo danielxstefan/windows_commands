@@ -1,7 +1,13 @@
-type *.txt - list all files from a directory together with file content
+type *.txt - list all files from a directory together with file content.
+-------------------------------------------------------------------------------------------------------------------------------------------
+dir *.py /s /b - will list all the python files.
+-------------------------------------------------------------------------------------------------------------------------------------------
+for /r %i in (*.py) do type "%i" - will print in windows terminal the content of all .py files.
+-------------------------------------------------------------------------------------------------------------------------------------------
+for /r %i in (*.py) do type "%i" >> contentofallfiles.txt - will append the content of all from 'contentofallfiles.txt' file of the output from the above command.
 -------------------------------------------------------------------------------------------------------------------------------------------
 type nul > filename.txt - This command creates an empty file with the specified name if it doesn't already exist. If the file does exist, 
-it will be overwritten with an empty file
+it will be overwritten with an empty file.
 -------------------------------------------------------------------------------------------------------------------------------------------
 copy nul filename.txt - This command has a similar effect, creating an empty file named filename.txt.
 -------------------------------------------------------------------------------------------------------------------------------------------
